@@ -1,0 +1,13 @@
+=== main comparison (n=20k, 120k updates, 5 seeds) ===
+  MARI     reloc/upd=0.024+/-0.000  writes/upd=1.15  verify/res=1.01  q/s=5660  mism=0
+  ART      reloc/upd=0.990+/-0.000  writes/upd=1.08  verify/res=0.00  q/s=2384  mism=0
+  PGM      reloc/upd=0.990+/-0.000  writes/upd=4.96  verify/res=1.38  q/s=5886  mism=0
+  BxExact  reloc/upd=0.990+/-0.000  writes/upd=1.16  verify/res=6.93  q/s=3587  mism=0
+
+=== scale run (n=100k, 600k updates, 1 seed) ===
+  MARI     reloc/upd=0.009  writes/upd=1.03  verify/res=1.00  upd/s=209698  q/s=720  mism=0
+  ART      reloc/upd=0.990  writes/upd=0.84  verify/res=0.00  upd/s=98772  q/s=411  mism=0
+  PGM      reloc/upd=0.990  writes/upd=7.45  verify/res=2.08  upd/s=119539  q/s=660  mism=0
+  BxExact  reloc/upd=0.990  writes/upd=1.16  verify/res=6.94  upd/s=66587  q/s=376  mism=0
+
+wrote baseline_results.json

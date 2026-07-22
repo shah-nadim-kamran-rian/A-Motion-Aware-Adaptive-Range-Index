@@ -1,0 +1,162 @@
+{
+  "problem": "exact range reporting under bounded drift",
+  "main": {
+    "n": 20000,
+    "updates": 120000,
+    "seeds": 5,
+    "queries": 3000,
+    "results": {
+      "MARI": {
+        "reloc_per_update": {
+          "mean": 0.024454168283564812,
+          "std": 0.0001832403217028674
+        },
+        "writes_per_update": {
+          "mean": 1.1540366666666668,
+          "std": 0.0002718557624100759
+        },
+        "scan_per_result": {
+          "mean": 1.2204136595473447,
+          "std": 0.01088448157065371
+        },
+        "verify_per_result": {
+          "mean": 1.005119617832572,
+          "std": 0.0003744763938378406
+        },
+        "update_ops_s": {
+          "mean": 312837.1422080575,
+          "std": 14084.735769939585
+        },
+        "query_ops_s": {
+          "mean": 5660.1962397788,
+          "std": 117.95863210082868
+        },
+        "mismatches_total": 0
+      },
+      "ART": {
+        "reloc_per_update": {
+          "mean": 0.9902200000000001,
+          "std": 0.00016671665916888703
+        },
+        "writes_per_update": {
+          "mean": 1.075555,
+          "std": 0.0011007396503160238
+        },
+        "scan_per_result": {
+          "mean": 5.794388390678639,
+          "std": 0.1653620992485241
+        },
+        "verify_per_result": {
+          "mean": 0.0,
+          "std": 0.0
+        },
+        "update_ops_s": {
+          "mean": 148704.288894784,
+          "std": 8707.839211015102
+        },
+        "query_ops_s": {
+          "mean": 2383.785625910788,
+          "std": 36.12126188252328
+        },
+        "mismatches_total": 0
+      },
+      "PGM": {
+        "reloc_per_update": {
+          "mean": 0.9902200000000001,
+          "std": 0.00016671665916888703
+        },
+        "writes_per_update": {
+          "mean": 4.958508333333333,
+          "std": 0.002674701437128546
+        },
+        "scan_per_result": {
+          "mean": 1.378237003088466,
+          "std": 0.002642460827879777
+        },
+        "verify_per_result": {
+          "mean": 1.378237003088466,
+          "std": 0.002642460827879777
+        },
+        "update_ops_s": {
+          "mean": 205237.3175498101,
+          "std": 4750.128835757479
+        },
+        "query_ops_s": {
+          "mean": 5885.784754944371,
+          "std": 132.3961609622868
+        },
+        "mismatches_total": 0
+      },
+      "BxExact": {
+        "reloc_per_update": {
+          "mean": 0.9902200000000001,
+          "std": 0.00016671665916888703
+        },
+        "writes_per_update": {
+          "mean": 1.1568866666666666,
+          "std": 0.0001667166591689403
+        },
+        "scan_per_result": {
+          "mean": 6.92820551402321,
+          "std": 0.02727178659977486
+        },
+        "verify_per_result": {
+          "mean": 6.92820551402321,
+          "std": 0.02727178659977486
+        },
+        "update_ops_s": {
+          "mean": 255667.4788912604,
+          "std": 9163.107146967504
+        },
+        "query_ops_s": {
+          "mean": 3587.167304249217,
+          "std": 95.2948956081999
+        },
+        "mismatches_total": 0
+      }
+    }
+  },
+  "scale": {
+    "n": 100000,
+    "updates": 600000,
+    "queries": 3000,
+    "results": {
+      "MARI": {
+        "reloc_per_update": 0.008975071117170799,
+        "writes_per_update": 1.0294516666666667,
+        "scan_per_result": 1.239757871478549,
+        "verify_per_result": 1.0047265039324513,
+        "update_ops_s": 209698.18249636484,
+        "query_ops_s": 720.1865291752783,
+        "mismatches": 0
+      },
+      "ART": {
+        "reloc_per_update": 0.99015,
+        "writes_per_update": 0.8391866666666666,
+        "scan_per_result": 4.891374253623379,
+        "verify_per_result": 0.0,
+        "update_ops_s": 98771.65373742886,
+        "query_ops_s": 410.63327243081045,
+        "mismatches": 0
+      },
+      "PGM": {
+        "reloc_per_update": 0.99015,
+        "writes_per_update": 7.448441666666667,
+        "scan_per_result": 2.0789712497040798,
+        "verify_per_result": 2.0789712497040798,
+        "update_ops_s": 119539.06480145607,
+        "query_ops_s": 659.8241612290701,
+        "mismatches": 0
+      },
+      "BxExact": {
+        "reloc_per_update": 0.99015,
+        "writes_per_update": 1.1568166666666666,
+        "scan_per_result": 6.941882907646579,
+        "verify_per_result": 6.941882907646579,
+        "update_ops_s": 66587.02292734878,
+        "query_ops_s": 375.6104268064706,
+        "mismatches": 0
+      }
+    }
+  }
+}
