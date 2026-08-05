@@ -1,0 +1,49 @@
+{
+  "config": {
+    "updates": 100000,
+    "keys": 20000,
+    "drift_delta": 50,
+    "group_commit": 128,
+    "indexed_by": "score (range-capable)",
+    "measure": "/proc/self/io"
+  },
+  "engines": [
+    {
+      "engine": "lmdb",
+      "updates": 100000,
+      "wchar_total": 286121616,
+      "write_bytes_total": 936882176,
+      "wchar_per_update": 2861.2,
+      "write_bytes_per_update": 9368.8,
+      "fsyncs": 782,
+      "disk_bytes": 1437696,
+      "wall_s": 6.79
+    },
+    {
+      "engine": "rocksdb",
+      "updates": 100000,
+      "wchar_total": 7548914,
+      "write_bytes_total": 10768384,
+      "wchar_per_update": 75.5,
+      "write_bytes_per_update": 107.7,
+      "fsyncs": 782,
+      "disk_bytes": 1593474,
+      "wall_s": 1.52
+    },
+    {
+      "engine": "mari",
+      "updates": 100000,
+      "wchar_total": 4972848,
+      "write_bytes_total": 11460608,
+      "wchar_per_update": 49.7,
+      "write_bytes_per_update": 114.6,
+      "fsyncs": 795,
+      "disk_bytes": 5825376,
+      "wall_s": 1.7
+    }
+  ],
+  "mari_vs_lmdb": {
+    "wchar_ratio": 57.6,
+    "write_bytes_ratio": 81.8
+  }
+}

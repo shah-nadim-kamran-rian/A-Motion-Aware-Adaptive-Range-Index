@@ -1,0 +1,70 @@
+{
+  "config": {
+    "M": 1000000,
+    "n": 20000,
+    "updates": 200000,
+    "drift_delta": 50,
+    "bucket_width": 1000,
+    "page_entries_P": 256,
+    "eps": 0.5
+  },
+  "regimes": {
+    "uniform": {
+      "per_update_page_writes": {
+        "InPlace_global (random)": 1.058,
+        "InPlace_radix (random)": 1.077,
+        "MARI (sequential)": 0.265
+      },
+      "mari_seq_breakdown": {
+        "delta_pages": 26462,
+        "compact_pages": 26541,
+        "migrations": 3652,
+        "locals": 194354
+      },
+      "contention": {
+        "updates": 198006,
+        "global_serialized_rate": 1.0,
+        "radix_2lock_rate": 0.0471,
+        "mari_2lock_rate": 0.0184
+      }
+    },
+    "clustered": {
+      "per_update_page_writes": {
+        "InPlace_global (random)": 1.061,
+        "InPlace_radix (random)": 1.099,
+        "MARI (sequential)": 0.2752
+      },
+      "mari_seq_breakdown": {
+        "delta_pages": 27486,
+        "compact_pages": 27563,
+        "migrations": 10057,
+        "locals": 189943
+      },
+      "contention": {
+        "updates": 200000,
+        "global_serialized_rate": 1.0,
+        "radix_2lock_rate": 0.0549,
+        "mari_2lock_rate": 0.0503
+      }
+    },
+    "directional": {
+      "per_update_page_writes": {
+        "InPlace_global (random)": 1.049,
+        "InPlace_radix (random)": 1.069,
+        "MARI (sequential)": 0.2664
+      },
+      "mari_seq_breakdown": {
+        "delta_pages": 26599,
+        "compact_pages": 26673,
+        "migrations": 5579,
+        "locals": 190523
+      },
+      "contention": {
+        "updates": 196102,
+        "global_serialized_rate": 1.0,
+        "radix_2lock_rate": 0.033,
+        "mari_2lock_rate": 0.0284
+      }
+    }
+  }
+}

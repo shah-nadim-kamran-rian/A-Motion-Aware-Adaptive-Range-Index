@@ -1,0 +1,78 @@
+{
+  "dataset": "S&P500 all_stocks_5yr (plotly/datasets)",
+  "keys": 505,
+  "updates": 619040,
+  "price_universe_cents": 204900,
+  "runs": [
+    {
+      "width": 1000,
+      "guard": 200,
+      "updates": 619040,
+      "inserts": 505,
+      "local_updates": 595596,
+      "migrations": 17619,
+      "migration_rate_pct": 2.87,
+      "compactions": 77213,
+      "max_delta": 42,
+      "queries_checked": 2063,
+      "exactness_mismatches": 0,
+      "scanned_per_result": 1.17
+    },
+    {
+      "width": 1000,
+      "guard": 500,
+      "updates": 619040,
+      "inserts": 505,
+      "local_updates": 603314,
+      "migrations": 9901,
+      "migration_rate_pct": 1.61,
+      "compactions": 77343,
+      "max_delta": 41,
+      "queries_checked": 2063,
+      "exactness_mismatches": 0,
+      "scanned_per_result": 1.17
+    },
+    {
+      "width": 1000,
+      "guard": 1000,
+      "updates": 619040,
+      "inserts": 505,
+      "local_updates": 607901,
+      "migrations": 5314,
+      "migration_rate_pct": 0.87,
+      "compactions": 77151,
+      "max_delta": 40,
+      "queries_checked": 2063,
+      "exactness_mismatches": 0,
+      "scanned_per_result": 1.16
+    },
+    {
+      "width": 1000,
+      "guard": 2000,
+      "updates": 619040,
+      "inserts": 505,
+      "local_updates": 610891,
+      "migrations": 2324,
+      "migration_rate_pct": 0.38,
+      "compactions": 77777,
+      "max_delta": 40,
+      "queries_checked": 2063,
+      "exactness_mismatches": 0,
+      "scanned_per_result": 1.16
+    },
+    {
+      "width": 500,
+      "guard": 500,
+      "updates": 619040,
+      "inserts": 505,
+      "local_updates": 597878,
+      "migrations": 15337,
+      "migration_rate_pct": 2.5,
+      "compactions": 125061,
+      "max_delta": 23,
+      "queries_checked": 2063,
+      "exactness_mismatches": 0,
+      "scanned_per_result": 1.14
+    }
+  ]
+}

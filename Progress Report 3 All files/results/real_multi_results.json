@@ -1,0 +1,56 @@
+{
+  "temps": {
+    "cities": 16,
+    "updates": 417432,
+    "runs": [
+      {
+        "guard": 3,
+        "migrations": 68108,
+        "migration_rate_pct": 19.13,
+        "mismatch": 0,
+        "checks": 2465
+      },
+      {
+        "guard": 5,
+        "migrations": 46036,
+        "migration_rate_pct": 12.93,
+        "mismatch": 0,
+        "checks": 2465
+      },
+      {
+        "guard": 10,
+        "migrations": 23690,
+        "migration_rate_pct": 6.65,
+        "mismatch": 0,
+        "checks": 2465
+      }
+    ]
+  },
+  "nba": {
+    "teams": 104,
+    "updates": 126314,
+    "runs": [
+      {
+        "guard": 10,
+        "migrations": 8325,
+        "migration_rate_pct": 6.61,
+        "mismatch": 0,
+        "checks": 2526
+      },
+      {
+        "guard": 20,
+        "migrations": 5143,
+        "migration_rate_pct": 4.09,
+        "mismatch": 0,
+        "checks": 2526
+      },
+      {
+        "guard": 40,
+        "migrations": 2682,
+        "migration_rate_pct": 2.13,
+        "mismatch": 0,
+        "checks": 2526
+      }
+    ]
+  }
+}
