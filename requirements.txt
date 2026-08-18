@@ -1,1 +1,4 @@
 sortedcontainers
+numpy
+scipy
+matplotlib
