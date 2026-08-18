@@ -1,0 +1,3 @@
+variant,wrong_queries_mean,false_hits_per_query,verify_per_result
+MARI_verify,0.0,0.0,1.006
+MARI_no_verify,95.75,0.123,0.0

@@ -1,0 +1,55 @@
+{
+  "mari": [
+    {
+      "width": 1000,
+      "guard": 20,
+      "reloc": 0.2821,
+      "mism": 0
+    },
+    {
+      "width": 1000,
+      "guard": 5,
+      "reloc": 0.2957,
+      "mism": 0
+    },
+    {
+      "width": 1000,
+      "guard": 1,
+      "reloc": 0.3005,
+      "mism": 0
+    },
+    {
+      "width": 200,
+      "guard": 5,
+      "reloc": 0.718,
+      "mism": 0
+    },
+    {
+      "width": 200,
+      "guard": 1,
+      "reloc": 0.7277,
+      "mism": 0
+    },
+    {
+      "width": 50,
+      "guard": 1,
+      "reloc": 0.9233,
+      "mism": 0
+    }
+  ],
+  "competitors": {
+    "ART": [
+      0.9977,
+      0
+    ],
+    "PGM": [
+      0.9977,
+      0
+    ],
+    "Bx": [
+      0.9977,
+      0
+    ]
+  },
+  "median_drift": 205
+}

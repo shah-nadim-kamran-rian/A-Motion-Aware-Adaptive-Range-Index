@@ -1,0 +1,19 @@
+{
+  "kill_signal": "SIGKILL",
+  "updates_total": 1200,
+  "updates_committed_at_checkpoint": 120,
+  "recovered_exact_to_prefix_len": 119,
+  "query_mismatches_at_that_prefix": 0,
+  "mismatches_by_prefix": {
+    "119": 0,
+    "120": 0,
+    "121": 9
+  },
+  "table_T_rebuilt": 300,
+  "recover_seconds": 0.0075,
+  "buckets_recovered": 178,
+  "stable_records_read": 285,
+  "delta_records_replayed": 18,
+  "bytes_read": 2568,
+  "table_T_size": 300
+}

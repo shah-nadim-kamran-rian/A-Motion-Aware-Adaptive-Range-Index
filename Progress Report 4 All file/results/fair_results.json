@@ -1,0 +1,38 @@
+[
+  {
+    "method": "MARI",
+    "peak_rss_MB": 37.2,
+    "user_s": 0.688,
+    "sys_s": 0.091,
+    "cpu_s": 0.78,
+    "reloc_per_update": 0.0245,
+    "mismatches": 0
+  },
+  {
+    "method": "ART",
+    "peak_rss_MB": 72.6,
+    "user_s": 1.42,
+    "sys_s": 0.403,
+    "cpu_s": 1.824,
+    "reloc_per_update": 0.9905,
+    "mismatches": 0
+  },
+  {
+    "method": "PGM",
+    "peak_rss_MB": 74.2,
+    "user_s": 0.783,
+    "sys_s": 0.0,
+    "cpu_s": 0.783,
+    "reloc_per_update": 0.9905,
+    "mismatches": 0
+  },
+  {
+    "method": "Bx",
+    "peak_rss_MB": 74.2,
+    "user_s": 0.731,
+    "sys_s": 0.024,
+    "cpu_s": 0.755,
+    "reloc_per_update": 0.9905,
+    "mismatches": 0
+  }
+]

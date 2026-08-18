@@ -1,0 +1,13 @@
+metric,method,mean,ci_low,ci_high,p_holm_vs_mari,cliffs_delta_vs_mari
+reloc_per_update,MARI,0.0244,0.02431,0.02449,,
+reloc_per_update,ART,0.99034,0.99022,0.99046,0.001465,-1.0
+reloc_per_update,PGM,0.99034,0.99022,0.99046,0.001465,-1.0
+reloc_per_update,Bx,0.99034,0.99022,0.99046,0.001465,-1.0
+verify_per_result,MARI,1.00517,1.00475,1.00564,,
+verify_per_result,ART,0.0,0.0,0.0,0.001465,1.0
+verify_per_result,PGM,1.38202,1.38063,1.38345,0.001465,-1.0
+verify_per_result,Bx,6.92842,6.89652,6.95909,0.001465,-1.0
+scan_per_result,MARI,1.21861,1.21097,1.22623,,
+scan_per_result,ART,5.77499,5.61767,5.92403,0.001465,-1.0
+scan_per_result,PGM,1.38202,1.38063,1.38345,0.001465,-1.0
+scan_per_result,Bx,6.92842,6.89652,6.95909,0.001465,-1.0

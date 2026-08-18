@@ -1,0 +1,158 @@
+{
+  "config": {
+    "M": 1000000,
+    "n": 20000,
+    "updates": 200000,
+    "drift_delta": 50,
+    "bucket_width": 1000,
+    "guard_default": 50,
+    "drift_audit": {
+      "delta_bound": 50,
+      "max_observed_dv": 50,
+      "mean_observed_dv": 25.31,
+      "within_bound": true
+    }
+  },
+  "selectivity_sweep": {
+    "100": {
+      "queries": 4000,
+      "avg_results": 2.06,
+      "p50_us": 5.61,
+      "p99_us": 42.14,
+      "mean_us": 7.26,
+      "qps": 137708,
+      "scanned_per_result": 1.247,
+      "verifies_per_result": 1.06,
+      "mismatches": 0
+    },
+    "500": {
+      "queries": 4000,
+      "avg_results": 10.26,
+      "p50_us": 11.04,
+      "p99_us": 49.08,
+      "mean_us": 13.32,
+      "qps": 75096,
+      "scanned_per_result": 1.232,
+      "verifies_per_result": 1.013,
+      "mismatches": 0
+    },
+    "2000": {
+      "queries": 4000,
+      "avg_results": 39.76,
+      "p50_us": 27.47,
+      "p99_us": 80.26,
+      "mean_us": 31.86,
+      "qps": 31390,
+      "scanned_per_result": 1.232,
+      "verifies_per_result": 1.005,
+      "mismatches": 0
+    },
+    "10000": {
+      "queries": 4000,
+      "avg_results": 204.43,
+      "p50_us": 87.72,
+      "p99_us": 744.26,
+      "mean_us": 104.85,
+      "qps": 9537,
+      "scanned_per_result": 1.235,
+      "verifies_per_result": 1.003,
+      "mismatches": 0
+    },
+    "50000": {
+      "queries": 4000,
+      "avg_results": 1002.3,
+      "p50_us": 405.22,
+      "p99_us": 1226.64,
+      "mean_us": 446.43,
+      "qps": 2240,
+      "scanned_per_result": 1.233,
+      "verifies_per_result": 1.003,
+      "mismatches": 0
+    }
+  },
+  "guard_sweep": {
+    "0": {
+      "queries": 4000,
+      "avg_results": 42.19,
+      "p50_us": 23.92,
+      "p99_us": 80.65,
+      "mean_us": 29.69,
+      "qps": 33678,
+      "scanned_per_result": 1.24,
+      "verifies_per_result": 1.014,
+      "mismatches": 0,
+      "migration_rate": 0.0469
+    },
+    "50": {
+      "queries": 4000,
+      "avg_results": 42.19,
+      "p50_us": 25.29,
+      "p99_us": 81.33,
+      "mean_us": 31.29,
+      "qps": 31962,
+      "scanned_per_result": 1.236,
+      "verifies_per_result": 1.006,
+      "mismatches": 0,
+      "migration_rate": 0.0183
+    },
+    "250": {
+      "queries": 4000,
+      "avg_results": 42.19,
+      "p50_us": 26.14,
+      "p99_us": 79.48,
+      "mean_us": 31.62,
+      "qps": 31621,
+      "scanned_per_result": 1.232,
+      "verifies_per_result": 1.003,
+      "mismatches": 0,
+      "migration_rate": 0.01
+    },
+    "1000": {
+      "queries": 4000,
+      "avg_results": 42.19,
+      "p50_us": 27.72,
+      "p99_us": 84.03,
+      "mean_us": 33.2,
+      "qps": 30122,
+      "scanned_per_result": 1.231,
+      "verifies_per_result": 1.003,
+      "mismatches": 0,
+      "migration_rate": 0.01
+    }
+  },
+  "baseline_throughput": {
+    "MARI(guard)": {
+      "queries": 4000,
+      "avg_results": 42.19,
+      "p50_us": 25.17,
+      "p99_us": 79.84,
+      "mean_us": 31.08,
+      "qps": 32178,
+      "scanned_per_result": 1.236,
+      "verifies_per_result": 1.006,
+      "mismatches": 0
+    },
+    "RadixSorted": {
+      "queries": 4000,
+      "avg_results": 42.19,
+      "p50_us": 7.18,
+      "p99_us": 43.99,
+      "mean_us": 8.91,
+      "qps": 112202,
+      "scanned_per_result": 1.0,
+      "verifies_per_result": 0.0,
+      "mismatches": 0
+    },
+    "SortedList": {
+      "queries": 4000,
+      "avg_results": 42.19,
+      "p50_us": 7.82,
+      "p99_us": 48.11,
+      "mean_us": 10.02,
+      "qps": 99804,
+      "scanned_per_result": 1.0,
+      "verifies_per_result": 0.0,
+      "mismatches": 0
+    }
+  }
+}

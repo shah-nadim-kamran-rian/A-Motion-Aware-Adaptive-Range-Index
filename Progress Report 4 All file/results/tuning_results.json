@@ -1,0 +1,134 @@
+{
+  "rule": "guard = (1-rho) quantile of per-key |delta k|; target migration ~= rho",
+  "domains": {
+    "S&P 500 prices (cents)": {
+      "keys": 505,
+      "updates": 619040,
+      "width": 1000,
+      "median_drift": 44.0,
+      "quantiles": {
+        "90": 182.0,
+        "95": 275.0,
+        "99": 672.6600000000326
+      },
+      "settings": [
+        {
+          "quantile_q": 90,
+          "guard": 182,
+          "target_migration_pct": 10.0,
+          "drift_mass_beyond_guard_pct": 9.946,
+          "measured_migration_pct": 3.018,
+          "measured_over_target": 0.3,
+          "exactness_mismatches": 0,
+          "checks": 1502
+        },
+        {
+          "quantile_q": 95,
+          "guard": 275,
+          "target_migration_pct": 5.0,
+          "drift_mass_beyond_guard_pct": 4.972,
+          "measured_migration_pct": 2.394,
+          "measured_over_target": 0.48,
+          "exactness_mismatches": 0,
+          "checks": 1502
+        },
+        {
+          "quantile_q": 99,
+          "guard": 673,
+          "target_migration_pct": 1.0,
+          "drift_mass_beyond_guard_pct": 0.998,
+          "measured_migration_pct": 1.312,
+          "measured_over_target": 1.31,
+          "exactness_mismatches": 0,
+          "checks": 1502
+        }
+      ]
+    },
+    "NBA Elo ratings": {
+      "keys": 104,
+      "updates": 126314,
+      "width": 50,
+      "median_drift": 7.0,
+      "quantiles": {
+        "90": 16.0,
+        "95": 20.0,
+        "99": 30.0
+      },
+      "settings": [
+        {
+          "quantile_q": 90,
+          "guard": 16,
+          "target_migration_pct": 10.0,
+          "drift_mass_beyond_guard_pct": 9.082,
+          "measured_migration_pct": 4.846,
+          "measured_over_target": 0.48,
+          "exactness_mismatches": 0,
+          "checks": 1503
+        },
+        {
+          "quantile_q": 95,
+          "guard": 20,
+          "target_migration_pct": 5.0,
+          "drift_mass_beyond_guard_pct": 4.619,
+          "measured_migration_pct": 4.085,
+          "measured_over_target": 0.82,
+          "exactness_mismatches": 0,
+          "checks": 1503
+        },
+        {
+          "quantile_q": 99,
+          "guard": 30,
+          "target_migration_pct": 1.0,
+          "drift_mass_beyond_guard_pct": 0.974,
+          "measured_migration_pct": 2.838,
+          "measured_over_target": 2.84,
+          "exactness_mismatches": 0,
+          "checks": 1503
+        }
+      ]
+    },
+    "US city temperatures (deg F)": {
+      "keys": 16,
+      "updates": 417432,
+      "width": 10,
+      "median_drift": 2.0,
+      "quantiles": {
+        "90": 8.0,
+        "95": 11.0,
+        "99": 16.0
+      },
+      "settings": [
+        {
+          "quantile_q": 90,
+          "guard": 8,
+          "target_migration_pct": 10.0,
+          "drift_mass_beyond_guard_pct": 8.974,
+          "measured_migration_pct": 7.941,
+          "measured_over_target": 0.79,
+          "exactness_mismatches": 0,
+          "checks": 1472
+        },
+        {
+          "quantile_q": 95,
+          "guard": 11,
+          "target_migration_pct": 5.0,
+          "drift_mass_beyond_guard_pct": 4.105,
+          "measured_migration_pct": 5.374,
+          "measured_over_target": 1.07,
+          "exactness_mismatches": 0,
+          "checks": 1472
+        },
+        {
+          "quantile_q": 99,
+          "guard": 16,
+          "target_migration_pct": 1.0,
+          "drift_mass_beyond_guard_pct": 0.862,
+          "measured_migration_pct": 2.28,
+          "measured_over_target": 2.28,
+          "exactness_mismatches": 0,
+          "checks": 1472
+        }
+      ]
+    }
+  }
+}

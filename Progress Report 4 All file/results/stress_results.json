@@ -1,0 +1,42 @@
+{
+  "stress": "top30_volatile_equities",
+  "median_drift": 205,
+  "rows": [
+    {
+      "guard": 100,
+      "within_guard_pct": 28.2,
+      "reloc_per_update": 0.2312,
+      "mismatches": 0
+    },
+    {
+      "guard": 50,
+      "within_guard_pct": 14.7,
+      "reloc_per_update": 0.2606,
+      "mismatches": 0
+    },
+    {
+      "guard": 20,
+      "within_guard_pct": 6.1,
+      "reloc_per_update": 0.2821,
+      "mismatches": 0
+    },
+    {
+      "guard": 10,
+      "within_guard_pct": 3.2,
+      "reloc_per_update": 0.2911,
+      "mismatches": 0
+    },
+    {
+      "guard": 5,
+      "within_guard_pct": 1.8,
+      "reloc_per_update": 0.2957,
+      "mismatches": 0
+    },
+    {
+      "guard": 2,
+      "within_guard_pct": 0.9,
+      "reloc_per_update": 0.299,
+      "mismatches": 0
+    }
+  ]
+}

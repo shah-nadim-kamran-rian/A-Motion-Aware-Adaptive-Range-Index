@@ -1,0 +1,78 @@
+{
+  "A1_MARI_500k_1.5M": {
+    "clustered": {
+      "reloc": 0.035,
+      "mism": 0
+    },
+    "directional": {
+      "reloc": 0.0128,
+      "mism": 0
+    },
+    "adversarial": {
+      "reloc": 0.0051,
+      "mism": 0
+    }
+  },
+  "A2_all_200k_600k_adversarial": {
+    "MARI": {
+      "reloc": 0.0068,
+      "mism": 0
+    },
+    "ART": {
+      "reloc": 0.9902,
+      "mism": 0
+    },
+    "PGM": {
+      "reloc": 0.9902,
+      "mism": 0
+    },
+    "BxExact": {
+      "reloc": 0.9902,
+      "mism": 0
+    }
+  },
+  "B_seeded_CIs": {
+    "uniform": {
+      "reloc_mean": 0.03102,
+      "reloc_std": 0.00027,
+      "qps_mean": 24485,
+      "qps_std": 2011
+    },
+    "clustered": {
+      "reloc_mean": 0.05834,
+      "reloc_std": 0.0005,
+      "qps_mean": 23373,
+      "qps_std": 1843
+    },
+    "directional": {
+      "reloc_mean": 0.03755,
+      "reloc_std": 0.00036,
+      "qps_mean": 22578,
+      "qps_std": 2621
+    },
+    "adversarial": {
+      "reloc_mean": 0.02848,
+      "reloc_std": 0.00023,
+      "qps_mean": 23547,
+      "qps_std": 1677
+    }
+  },
+  "C_hotspot_chain_query": {
+    "without_overflow": {
+      "near_examined": 2812,
+      "near_results": 2,
+      "incl_examined": 2816,
+      "incl_results": 2795,
+      "chains": 0,
+      "mism": 0
+    },
+    "with_overflow": {
+      "near_examined": 851,
+      "near_results": 2,
+      "incl_examined": 855,
+      "incl_results": 2795,
+      "chains": 1,
+      "mism": 0
+    }
+  }
+}

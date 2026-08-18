@@ -1,0 +1,35 @@
+{
+  "stress": "top30_volatile_equities",
+  "median_drift": 205,
+  "updates": 37456,
+  "rows": [
+    {
+      "method": "MARI",
+      "reloc_per_update": 0.2821,
+      "verify_per_result": 6.95,
+      "scan_per_result": 6.95,
+      "mismatches": 0
+    },
+    {
+      "method": "ART",
+      "reloc_per_update": 0.9977,
+      "verify_per_result": 0.0,
+      "scan_per_result": 796.4,
+      "mismatches": 0
+    },
+    {
+      "method": "PGM",
+      "reloc_per_update": 0.9977,
+      "verify_per_result": 19.63,
+      "scan_per_result": 19.63,
+      "mismatches": 0
+    },
+    {
+      "method": "Bx",
+      "reloc_per_update": 0.9977,
+      "verify_per_result": 1166.0,
+      "scan_per_result": 1166.0,
+      "mismatches": 0
+    }
+  ]
+}

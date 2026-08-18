@@ -1,0 +1,25 @@
+{
+  "note": "single-key hotspot: overflow chaining restores the 2*tau bound, exactly",
+  "without_overflow": {
+    "use_overflow": false,
+    "tau": 64,
+    "max_bucket_size": 2407,
+    "max_value_multiplicity_in_bucket": 1938,
+    "overflow_chains": 0,
+    "hotspot_chain_size": 0,
+    "split_obstruction_bound_2tau": 128,
+    "obstruction_removed": false,
+    "mismatches": 0
+  },
+  "with_overflow": {
+    "use_overflow": true,
+    "tau": 64,
+    "max_bucket_size": 469,
+    "max_value_multiplicity_in_bucket": 13,
+    "overflow_chains": 1,
+    "hotspot_chain_size": 1938,
+    "split_obstruction_bound_2tau": 128,
+    "obstruction_removed": true,
+    "mismatches": 0
+  }
+}

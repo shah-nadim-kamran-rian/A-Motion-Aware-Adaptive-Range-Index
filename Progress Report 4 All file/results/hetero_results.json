@@ -1,0 +1,48 @@
+{
+  "model": "per-region guard g(r) = (1-rho) quantile of region r's drift",
+  "target_rho_pct": 5.0,
+  "global_guard_cents": 275,
+  "band_drift": {
+    "low": {
+      "median": 25.0,
+      "p95": 113.0,
+      "p99": 202.0
+    },
+    "mid": {
+      "median": 45.0,
+      "p95": 188.0,
+      "p99": 334.0
+    },
+    "high": {
+      "median": 84.0,
+      "p95": 483.0,
+      "p99": 1157.5100000000093
+    }
+  },
+  "bands": {
+    "low": {
+      "median_drift": 25.0,
+      "p95_drift": 113.0,
+      "global_guard": 275,
+      "migration_global_guard_pct": 0.491,
+      "region_guard": 113,
+      "migration_region_guard_pct": 0.984
+    },
+    "mid": {
+      "median_drift": 45.0,
+      "p95_drift": 188.0,
+      "global_guard": 275,
+      "migration_global_guard_pct": 1.257,
+      "region_guard": 188,
+      "migration_region_guard_pct": 1.639
+    },
+    "high": {
+      "median_drift": 84.0,
+      "p95_drift": 483.0,
+      "global_guard": 275,
+      "migration_global_guard_pct": 5.387,
+      "region_guard": 483,
+      "migration_region_guard_pct": 3.835
+    }
+  }
+}

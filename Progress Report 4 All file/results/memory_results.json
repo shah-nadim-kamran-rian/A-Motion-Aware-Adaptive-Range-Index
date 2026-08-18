@@ -1,0 +1,56 @@
+{
+  "config": {
+    "M": 1000000,
+    "n": 20000,
+    "updates": 200000,
+    "bucket_width": 1000,
+    "eps": 0.5
+  },
+  "structures": {
+    "MARI (reference)": {
+      "live_items": 20000,
+      "records": {
+        "T": 20000,
+        "stable_dict": 20015,
+        "stable_sorted": 20015,
+        "delta_dict": 3785,
+        "delta_sorted": 4251,
+        "delta_tomb": 47,
+        "total_records": 68113,
+        "lean_records": 48051
+      },
+      "records_per_item": 3.406,
+      "retained_bytes": 5359870,
+      "bytes_per_item": 268.0,
+      "x_over_ordered_index": 1.7
+    },
+    "MARI (lean, T+skeys+delta)": {
+      "live_items": 20000,
+      "total_records": 48051,
+      "records_per_item": 2.403,
+      "x_over_ordered_index": 1.2
+    },
+    "SortedList (baseline)": {
+      "live_items": 20000,
+      "records": {
+        "cur_dict": 20000,
+        "sorted": 20000,
+        "total_records": 40000
+      },
+      "records_per_item": 2.0,
+      "retained_bytes": 1896744,
+      "bytes_per_item": 94.8
+    },
+    "RadixSorted (baseline)": {
+      "live_items": 20000,
+      "records": {
+        "cur_dict": 20000,
+        "sorted": 20000,
+        "total_records": 40000
+      },
+      "records_per_item": 2.0,
+      "retained_bytes": 1982376,
+      "bytes_per_item": 99.1
+    }
+  }
+}

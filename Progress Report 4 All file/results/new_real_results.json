@@ -1,0 +1,22 @@
+[
+  {
+    "dataset": "Forex (exchange rates)",
+    "entities": 22,
+    "updates": 260898,
+    "median_drift": 1,
+    "guard": 30,
+    "within_guard_pct": 92.6,
+    "reloc_per_update": 0.0249,
+    "mismatches": 0
+  },
+  {
+    "dataset": "Oil Brent (single series)",
+    "entities": 1,
+    "updates": 9952,
+    "median_drift": 46,
+    "guard": 50,
+    "within_guard_pct": 52.8,
+    "reloc_per_update": null,
+    "mismatches": "n/a"
+  }
+]
